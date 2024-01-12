@@ -1,0 +1,38 @@
+﻿@import url("https://developer.mescius.com/activereportsjs/demos/resource/themes/orange-ui.css");
+@import url("https://developer.mescius.com/activereportsjs/demos/resource/themes/orange-designer.css");
+@import url("https://developer.mescius.com/activereportsjs/demos/resource/themes/orange-viewer.css");
+
+#designer-host,
+#viewer-host {
+  width: 100%;
+  height: 93vh;
+}
+
+#dlgOpen {
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 1050; /* Adjust the z-index as needed */
+  width: 35%;
+}
+
+.modal-header {
+  background-color: #e87b21;
+}
+
+.modal-content {
+  width: 80%; /* Adjust the width as needed */
+  max-width: 600px; /* Adjust the max-width as needed */
+  margin: auto;
+}
+
+#designer-host {
+  position: relative;
+}
+
+/* Additional styling for overlay if needed */
+.modal-backdrop {
+  z-index: 1040; /* Adjust the z-index as needed */
+}
+

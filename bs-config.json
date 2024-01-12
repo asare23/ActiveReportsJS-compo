@@ -1,0 +1,11 @@
+﻿{
+    "ghostMode": false,
+    "notify": false,
+    "server": {
+        "baseDir": ["./", "../"],
+        "routes": {
+            "/activereportsjs/demos/arjs": "node_modules/@grapecity/activereports",
+            "/activereportsjs/demos/arjs-localization": "node_modules/@grapecity/activereports-localization"
+        }
+    }
+}
